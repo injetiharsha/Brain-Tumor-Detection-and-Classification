@@ -76,5 +76,7 @@ pip install tensorflow opencv-python pillow numpy
 file.py
 ##For Batch Folder Processing:
 folder.py
+## For model linking
+model.py
 
 
