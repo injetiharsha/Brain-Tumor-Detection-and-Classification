@@ -51,7 +51,20 @@ The CNN model is saved as `TumorDetectionFINAL.h5` and is designed to classify M
    - For folder mode, images and their corresponding predictions are arranged in a grid with a scrollable interface.
   
 4. 
+Future Enhancements
+Increase Model Accuracy:
+Explore additional data augmentation and incorporate more diverse datasets to improve the model's robustness.
 
+Enhanced GUI Features:
+Add functionalities such as real-time webcam integration or more detailed visual analytics.
+
+Web Deployment:
+Consider developing a web application using frameworks like Flask or Django for broader accessibility.
+
+Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.
+
+6. 
 ## Installation & Setup
 ### Prerequisites
 Ensure you have Python 3.7 or higher installed. Install the required dependencies using pip:
@@ -59,29 +72,9 @@ Ensure you have Python 3.7 or higher installed. Install the required dependencie
 pip install tensorflow opencv-python pillow numpy
 
 ## Running the Application
-```bash
 ##For Single Image Detection:
 file.py
-```bash
 ##For Batch Folder Processing:
 folder.py
 
 
-├── model.py                # Contains the CNN model loading and prediction logic
-├── single_file.py          # GUI for single image tumour detection
-├── folder_code.py          # GUI for batch image processing of tumour detection
-├── TumorDetectionFINAL.h5  # Pre-trained CNN model
-├── README.md               # Documentation
-
-Future Enhancements
-Increase Model Accuracy:
-Explore additional data augmentation and incorporate more diverse datasets to improve the model's robustness.
-Enhanced GUI Features:
-Add functionalities such as real-time webcam integration or more detailed visual analytics.
-Web Deployment:
-Consider developing a web application using frameworks like Flask or Django for broader accessibility.
-Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.
-
-Author
-Developed by Udaya Harsha, Akhil kanvarsh, Samyak Jain
