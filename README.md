@@ -49,15 +49,20 @@ The CNN model is saved as `TumorDetectionFINAL.h5` and is designed to classify M
 3. **Result Display:**  
    - For single image mode, the prediction (tumour type and probability) is displayed alongside the image.
    - For folder mode, images and their corresponding predictions are arranged in a grid with a scrollable interface.
+  
+4. 
 
 ## Installation & Setup
 ### Prerequisites
 Ensure you have Python 3.7 or higher installed. Install the required dependencies using pip:
 ```bash
 pip install tensorflow opencv-python pillow numpy
+
 ## Running the Application
+```bash
 ##For Single Image Detection:
 file.py
+```bash
 ##For Batch Folder Processing:
 folder.py
 
